@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-ruby "2.1.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -33,21 +32,23 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group :development do
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
-end
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
 
-group :production do
-  gem 'rails_12factor'
-  gem 'pg'
-end
+gem 'json', '1.8.1'
+
 
 gem 'watir-webdriver'
 
+gem 'whenever'
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'minitest', '~> 4.7.5'
+
+group :development do
+  gem 'capistrano', '~> 2.15.5'
+  gem 'capistrano-unicorn'
+  #other development gems...
+end
 
 # Use unicorn as the app server
 # gem 'unicorn'

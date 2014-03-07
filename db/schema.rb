@@ -11,6 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20140305000400) do
+
+  create_table "statuses", force: true do |t|
+    t.string   "code"
+    t.boolean  "error"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

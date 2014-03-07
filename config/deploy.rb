@@ -1,33 +1,22 @@
 set :whenever_command, "bundle exec whenever"
 require "whenever/capistrano"
-require 'thinking_sphinx/capistrano'
-# set :repository,  "set your repository location here"
-
-set :staging_path, '/'
 set :staging, ''
 set :use_sudo, false
-desc "Run tasks in test enviroment."
-task :staging_test do
-  set :branch, "test"
-  set :staging, 'test'
-  set :user, "root"
-  set :application, "tabor_test"
-  set :unicorn_pid, "/var/www/shared/pids/unicorn.pid"
-  role :web, "188.72.65.185"                          # Your HTTP server, Apache/etc
-  role :app, "188.72.65.185"                          # This may be the same as your `Web` server
-  role :db,  "188.72.65.185", :primary => true # This is where Rails migrations will run
-  set :deploy_to, "/var/www"
-  set :default_environment, {
-      'PATH' => "/usr/local/rvm/gems/ruby-2.1.0/bin:/usr/local/rvm/gems/ruby-2.1.0@global/bin:/usr/local/rvm/rubies/ruby-2.1.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/rvm/bin",
-      'RUBY_VERSION' => 'ruby 2.1.0p0',
-      'GEM_HOME' => "/usr/local/rvm/gems/ruby-2.1.0",
-      'GEM_PATH' => "/usr/local/rvm/gems/ruby-2.1.0:/usr/local/rvm/gems/ruby-2.1.0@global"
-  }
-end
-
-
-require 'thinking_sphinx/capistrano'
-
+set :branch, "master"
+set :staging, 'test'
+set :user, "root"
+set :application, "tabor_test"
+set :unicorn_pid, "/var/www_test/shared/pids/unicorn.pid"
+role :web, "188.72.65.185"                          # Your HTTP server, Apache/etc
+role :app, "188.72.65.185"                          # This may be the same as your `Web` server
+role :db,  "188.72.65.185", :primary => true # This is where Rails migrations will run
+set :deploy_to, "/var/www_test"
+set :default_environment, {
+    'PATH' => "/usr/local/rvm/gems/ruby-2.1.0/bin:/usr/local/rvm/gems/ruby-2.1.0@global/bin:/usr/local/rvm/rubies/ruby-2.1.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/rvm/bin",
+    'RUBY_VERSION' => 'ruby 2.1.0p0',
+    'GEM_HOME' => "/usr/local/rvm/gems/ruby-2.1.0",
+    'GEM_PATH' => "/usr/local/rvm/gems/ruby-2.1.0:/usr/local/rvm/gems/ruby-2.1.0@global"
+}
 
 
 
@@ -62,7 +51,7 @@ namespace :deploy do
   task :restart do
     run "rm -rf #{current_path}/tmp/cache && mkdir #{current_path}/tmp/cache"
     run "chmod 777 #{current_path}/tmp/cache"
-    run "cp /var/www#{staging_path}shared/config/database.yml #{current_path}/config/"
+    run "cp /var/www_test/shared/config/database.yml #{current_path}/config/"
     run "mkdir #{current_path}/tmp/data && chmod 777 #{current_path}/tmp/data"
   end
 end

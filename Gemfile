@@ -50,6 +50,10 @@ group :development do
   #other development gems...
 end
 
+group :production do
+  gem 'unicorn'
+end
+
 # Use unicorn as the app server
 # gem 'unicorn'
 

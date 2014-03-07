@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<component name="dataSourceStorage">
-  <data-source source="LOCAL" name="Rails tabor_web_ping: development" uuid="7958ebaa-6d88-44c0-bd44-390e5a4e3eb7">
-    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
-  </data-source>
-  <data-source source="LOCAL" name="Rails tabor_web_ping: test" uuid="29a63902-1b5f-4c46-8033-015b1de7aaa0">
-    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
-  </data-source>
-</component>

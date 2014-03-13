@@ -47,7 +47,7 @@ namespace :deploy do
 
   desc "restart server"
   task :restart do
-    run "cp /var/www_test/shared/config/initializers/sms_gate.rb #{current_path}config/initializers"
+    run "cp /var/www_test/shared/config/initializers/sms_gate.rb #{current_path}/config/initializers"
     run "ln -s /var/www_test/shared/db/production.sqlite3 #{current_path}/db/production.sqlite3"
   end
 end

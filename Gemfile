@@ -35,6 +35,8 @@ end
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+gem 'mysql2', '~> 0.3.12b5'
+
 gem 'json', '1.8.1'
 
 gem 'watir-webdriver'

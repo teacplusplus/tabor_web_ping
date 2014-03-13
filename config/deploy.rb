@@ -47,7 +47,7 @@ namespace :deploy do
 
   desc "restart server"
   task :restart do
-
+    run "cp /var/www_test/shared/config/database.yml #{current_path}/config/"
   end
 end
 

@@ -7,9 +7,9 @@
 #
 # set :output, "/path/to/my/cron_log.log"
 #
-#every 15.minutes do
-#   rake "warir"
-#end
+every 1.minutes do
+   rake "warir"
+end
 #
 # every 4.days do
 #   runner "AnotherModel.prune_old_records"

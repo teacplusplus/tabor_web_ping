@@ -50,15 +50,15 @@ task :watir => :environment do
         false
       end
 
-      #return raise 'не работаеют системные' unless begin
-      #  browser.link(:id => 'notificationLed').click
-      #  browser.div(:text, 'Системные сообщения').when_present
-      #  browser.send_keys :escape
-      #  browser.div(:text, 'Системные сообщения').wait_while_present
-      #  true
-      #rescue
-      #  false
-      #end
+      return raise 'не работаеют системные' unless begin
+        browser.link(:id => 'notificationLed').click
+        browser.div(:text, 'Системные сообщения').when_present
+        browser.send_keys :escape
+        browser.div(:text, 'Системные сообщения').wait_while_present
+        true
+      rescue
+        false
+      end
 
       return raise 'не работают сообщения' unless begin
         browser.link(:id => 'messageLed').click
@@ -99,10 +99,8 @@ task :watir => :environment do
         false
       end
 
-
-
       return raise 'не работаеют поиск' unless begin
-        browser.link(:class => 'online__link online__woman').click
+        browser.link(:class => 'online__link online__woman1').click
         browser.li(:class => 'comment').when_present.exists?
       rescue
         false
@@ -114,11 +112,11 @@ task :watir => :environment do
       is_new_error = ((last_status.present? && last_status.error && ((new_status.created_at - last_status.created_at) > 6.hours)) || (last_status.blank?) || (last_status.present? && !last_status.error))
       if is_new_error
         SmsGate.send("Ошибка: #{e.message}", '+79612966010', 3159)
+        #SmsGate.send("Ошибка: #{e.message}", '+375295607342', 3159)
       end
     ensure
       browser.close
     end
-
   end
 
 

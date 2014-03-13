@@ -1,9 +1,7 @@
 set :whenever_command, "bundle exec whenever"
 require "whenever/capistrano"
-set :staging, ''
 set :use_sudo, false
 set :branch, "master"
-set :staging, 'test'
 set :user, "root"
 set :application, "tabor_test"
 set :unicorn_pid, "/var/www_test/shared/pids/unicorn.pid"
@@ -25,7 +23,7 @@ set :scm, :git
 
 # role :db,  "your slave db-server here"
 
-set :repository, "git@github.com:ninwim/tabor_web_ping.git"
+set :repository, "git@github.com:teacplusplus/tabor_web_ping.git"
 
 set :deploy_via, :remote_cache
 set :rails_env, :production
@@ -49,10 +47,7 @@ namespace :deploy do
 
   desc "restart server"
   task :restart do
-    run "rm -rf #{current_path}/tmp/cache && mkdir #{current_path}/tmp/cache"
-    run "chmod 777 #{current_path}/tmp/cache"
-    run "cp /var/www_test/shared/config/database.yml #{current_path}/config/"
-    run "mkdir #{current_path}/tmp/data && chmod 777 #{current_path}/tmp/data"
+
   end
 end
 
@@ -63,7 +58,7 @@ task :bundle_install, :roles => :app do
   run "cd #{release_path} && bundle install"
 end
 
-after "deploy:restart", 'bundle_install'
+before "whenever:update_crontab", 'bundle_install'
 after "deploy:restart", 'deploy:stop'
 after "deploy:stop", 'deploy:start'
 

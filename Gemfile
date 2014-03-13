@@ -37,12 +37,13 @@ gem 'sqlite3'
 
 gem 'json', '1.8.1'
 
-
 gem 'watir-webdriver'
 
 gem 'whenever'
 
 gem 'minitest', '~> 4.7.5'
+
+gem 'headless'
 
 group :development do
   gem 'capistrano', '~> 2.15.5'

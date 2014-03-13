@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29f4dd9b-38ae-469d-b09b-1f3417297890" name="Default" comment="" />
+    <list default="true" id="29f4dd9b-38ae-469d-b09b-1f3417297890" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/main.rake" afterPath="$PROJECT_DIR$/lib/tasks/main.rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/schedule.rb" afterPath="$PROJECT_DIR$/config/schedule.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tabor_web_ping.iml" afterPath="$PROJECT_DIR$/.idea/tabor_web_ping.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="tabor_web_ping.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,10 +21,10 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tabor_web_ping@Rails_console__tabor_web_ping.coverage" NAME="Rails console: tabor_web_ping Coverage Results" MODIFIED="1393980842058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
-    <SUITE FILE_PATH="coverage/tabor_web_ping@db_rollback__tabor_web_ping.coverage" NAME="db:rollback: tabor_web_ping Coverage Results" MODIFIED="1393978836431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
     <SUITE FILE_PATH="coverage/tabor_web_ping@db_migrate__tabor_web_ping.coverage" NAME="db:migrate: tabor_web_ping Coverage Results" MODIFIED="1393978845705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
+    <SUITE FILE_PATH="coverage/tabor_web_ping@db_rollback__tabor_web_ping.coverage" NAME="db:rollback: tabor_web_ping Coverage Results" MODIFIED="1393978836431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
     <SUITE FILE_PATH="coverage/tabor_web_ping@Development__tabor_web_ping.coverage" NAME="Development: tabor_web_ping Coverage Results" MODIFIED="1393981108955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
-    <SUITE FILE_PATH="coverage/tabor_web_ping@watir__tabor_web_ping.coverage" NAME="watir: tabor_web_ping Coverage Results" MODIFIED="1394166607820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
+    <SUITE FILE_PATH="coverage/tabor_web_ping@watir__tabor_web_ping.coverage" NAME="watir: tabor_web_ping Coverage Results" MODIFIED="1394751529194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
     <SUITE FILE_PATH="coverage/tabor_web_ping@db_create__tabor_web_ping.coverage" NAME="db:create: tabor_web_ping Coverage Results" MODIFIED="1393974363416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -31,10 +39,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Capfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Capfile">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+            <state line="37" column="19" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
@@ -43,16 +51,25 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="134" selection-end="134" vertical-scroll-proportion="0.10752688" vertical-offset="0" max-vertical-offset="1185">
+            <state line="68" column="0" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.84822935" vertical-offset="517" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="main.rake" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/main.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="41" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+            <state line="6" column="30" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1950">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.ru">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -61,7 +78,7 @@
       <file leaf-file-name="unicorn.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="18" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+            <state line="36" column="18" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -70,7 +87,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="32" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="18" column="32" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -88,7 +105,7 @@
       <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="-0.0" vertical-offset="165" max-vertical-offset="2640">
+            <state line="12" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2670">
               <folding />
             </state>
           </provider>
@@ -97,19 +114,10 @@
       <file leaf-file-name="schedule.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/schedule.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="14" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="18" column="27" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding>
-                <marker date="1394163676520" expanded="true" signature="233:272" placeholder="..." />
+                <marker date="1394751179015" expanded="true" signature="234:275" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="statuses.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/fixtures/statuses.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -134,6 +142,9 @@
     <option name="VCS_SHOW_CONFIRMATION" value="true" />
     <option name="ENVIRONMENT" value="development" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -141,12 +152,13 @@
         <option value="$PROJECT_DIR$/config/initializers/sms_gate.rb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/config/schedule.rb" />
-        <option value="$PROJECT_DIR$/lib/tasks/main.rake" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/unicorn.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/lib/tasks/main.rake" />
+        <option value="$PROJECT_DIR$/config/schedule.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
       </list>
     </option>
@@ -218,7 +230,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabor_web_ping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabor_web_ping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabor_web_ping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabor_web_ping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,10 +277,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,10 +294,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabor_web_ping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabor_web_ping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabor_web_ping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabor_web_ping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabor_web_ping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabor_web_ping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -654,12 +744,13 @@
     <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46186897" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56820625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760474" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20364742" sideWeight="0.63209075" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29028815" sideWeight="0.61912477" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29348987" sideWeight="0.61912477" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4135255" sideWeight="0.8611111" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4467849" sideWeight="0.123931624" order="8" side_tool="true" content_ui="tabs" />
@@ -669,10 +760,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44038668" sideWeight="0.87606835" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46186897" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.63857377" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.63857377" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -694,18 +784,86 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="945">
+        <state line="8" column="35" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="465">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.0/lib/action_dispatch/routing/mapper.rb">
+    <entry file="file://$PROJECT_DIR$/Capfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1442" column="12" selection-start="50833" selection-end="50833" vertical-scroll-proportion="0.0" vertical-offset="21463" max-vertical-offset="26625">
+        <state line="3" column="14" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="31" selection-start="1886" selection-end="1886" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="18" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="32" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/session_store.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="2640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/schedule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="14" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
+          <folding>
+            <marker date="1394751179015" expanded="true" signature="234:275" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/status.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="945" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.0/lib/action_dispatch/routing/mapper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1442" column="12" selection-start="50833" selection-end="50833" vertical-scroll-proportion="0.0" vertical-offset="21463" max-vertical-offset="26625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -724,9 +882,7 @@
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@global/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/schema_definitions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="10" selection-start="9434" selection-end="9434" vertical-scroll-proportion="0.0" vertical-offset="3065" max-vertical-offset="7605">
-          <folding />
-        </state>
+        <state line="212" column="10" selection-start="9434" selection-end="9434" vertical-scroll-proportion="0.0" vertical-offset="3065" max-vertical-offset="7605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/main.rake">
@@ -738,16 +894,12 @@
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@global/gems/activerecord-4.0.0/lib/active_record/querying.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1020">
-          <folding />
-        </state>
+        <state line="8" column="4" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1020" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/statuses.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/status.rb">
@@ -764,7 +916,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -779,11 +933,6 @@
         <state line="5" column="27" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
@@ -796,16 +945,12 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs21/kernel.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="8" selection-start="3772" selection-end="3772" vertical-scroll-proportion="1.6329479" vertical-offset="875" max-vertical-offset="33630">
-          <folding />
-        </state>
+        <state line="96" column="8" selection-start="3772" selection-end="3772" vertical-scroll-proportion="1.6329479" vertical-offset="875" max-vertical-offset="33630" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@global/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/schema_definitions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="10" selection-start="9434" selection-end="9434" vertical-scroll-proportion="0.0" vertical-offset="3065" max-vertical-offset="7605">
-          <folding />
-        </state>
+        <state line="212" column="10" selection-start="9434" selection-end="9434" vertical-scroll-proportion="0.0" vertical-offset="3065" max-vertical-offset="7605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140305000400_create_statuses.rb">
@@ -817,9 +962,7 @@
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@global/gems/activerecord-4.0.0/lib/active_record/querying.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1020">
-          <folding />
-        </state>
+        <state line="8" column="4" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1020" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@global/gems/activerecord-4.0.0/lib/active_record/validations.rb">
@@ -829,42 +972,12 @@
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@global/gems/actionpack-4.0.0/lib/action_dispatch/routing/mapper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1442" column="12" selection-start="50833" selection-end="50833" vertical-scroll-proportion="0.0" vertical-offset="21463" max-vertical-offset="26625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-          <folding />
-        </state>
+        <state line="1442" column="12" selection-start="50833" selection-end="50833" vertical-scroll-proportion="0.0" vertical-offset="21463" max-vertical-offset="26625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="61" selection-start="247" selection-end="247" vertical-scroll-proportion="0.26838967" vertical-offset="0" max-vertical-offset="503" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/main.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="1317" max-vertical-offset="1875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="41" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="18" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Capfile">
@@ -890,25 +1003,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="-0.0" vertical-offset="165" max-vertical-offset="2640">
+        <state line="12" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2670">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/schedule.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding>
-            <marker date="1394163676520" expanded="true" signature="233:272" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/statuses.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="346">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="346" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/status.rb">
@@ -918,9 +1020,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="18" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="285" selection-end="285" vertical-scroll-proportion="0.1980198" vertical-offset="0" max-vertical-offset="945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="35" selection-start="196" selection-end="196" vertical-scroll-proportion="0.13318536" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="19" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/main.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/schedule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="27" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding>
+            <marker date="1394751179015" expanded="true" signature="234:275" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="134" selection-end="134" vertical-scroll-proportion="0.10752688" vertical-offset="0" max-vertical-offset="1185">
+        <state line="68" column="0" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.84822935" vertical-offset="517" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>

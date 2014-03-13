@@ -47,7 +47,7 @@ namespace :deploy do
 
   desc "restart server"
   task :restart do
-    run "cp /var/www_test/shared/config/database.yml #{current_path}/config/"
+    run "ln /var/www_test/shared/db/production.sqlite3 #{current_path}/db/production.sqlite3"
   end
 end
 

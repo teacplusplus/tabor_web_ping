@@ -18,7 +18,7 @@
     <SUITE FILE_PATH="coverage/tabor_web_ping@db_migrate__tabor_web_ping.coverage" NAME="db:migrate: tabor_web_ping Coverage Results" MODIFIED="1393978845705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
     <SUITE FILE_PATH="coverage/tabor_web_ping@db_rollback__tabor_web_ping.coverage" NAME="db:rollback: tabor_web_ping Coverage Results" MODIFIED="1393978836431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
     <SUITE FILE_PATH="coverage/tabor_web_ping@Development__tabor_web_ping.coverage" NAME="Development: tabor_web_ping Coverage Results" MODIFIED="1393981108955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
-    <SUITE FILE_PATH="coverage/tabor_web_ping@watir__tabor_web_ping.coverage" NAME="watir: tabor_web_ping Coverage Results" MODIFIED="1394758085256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
+    <SUITE FILE_PATH="coverage/tabor_web_ping@watir__tabor_web_ping.coverage" NAME="watir: tabor_web_ping Coverage Results" MODIFIED="1394760689073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
     <SUITE FILE_PATH="coverage/tabor_web_ping@db_create__tabor_web_ping.coverage" NAME="db:create: tabor_web_ping Coverage Results" MODIFIED="1393974363416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -63,34 +63,43 @@
       <file leaf-file-name="main.rake" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/main.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="58" selection-start="3029" selection-end="3029" vertical-scroll-proportion="0.62903225" vertical-offset="1179" max-vertical-offset="1920">
+            <state line="157" column="16" selection-start="3750" selection-end="3750" vertical-scroll-proportion="0.53608245" vertical-offset="2095" max-vertical-offset="2775">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unicorn.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
+      <file leaf-file-name="kernel.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="780">
+            <state line="1571" column="8" selection-start="69329" selection-end="69329" vertical-scroll-proportion="0.0" vertical-offset="23324" max-vertical-offset="29310">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="wait.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448@global/gems/watir-webdriver-0.6.8/lib/watir-webdriver/wait.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="32" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="8" column="4" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2850">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <file leaf-file-name="watir-webdriver.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448@global/gems/watir-webdriver-0.6.8/lib/watir-webdriver.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="2700">
+            <state line="39" column="8" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="1830">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="browser.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448@global/gems/watir-webdriver-0.6.8/lib/watir-webdriver/browser.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="133" column="8" selection-start="2794" selection-end="2794" vertical-scroll-proportion="0.0" vertical-offset="5539" max-vertical-offset="6120">
               <folding />
             </state>
           </provider>
@@ -736,10 +745,10 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20364742" sideWeight="0.63209075" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29348987" sideWeight="0.61912477" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4135255" sideWeight="0.8611111" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45220193" sideWeight="0.8611111" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4467849" sideWeight="0.123931624" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3168636" sideWeight="0.68356454" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36842105" sideWeight="0.68356454" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3415682" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -765,7 +774,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1069,9 +1078,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448@global/gems/watir-webdriver-0.6.8/lib/watir-webdriver/browser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="8" selection-start="2794" selection-end="2794" vertical-scroll-proportion="0.0" vertical-offset="5539" max-vertical-offset="6120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448@global/gems/watir-webdriver-0.6.8/lib/watir-webdriver.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="8" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448@global/gems/watir-webdriver-0.6.8/lib/watir-webdriver/wait.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1571" column="8" selection-start="69329" selection-end="69329" vertical-scroll-proportion="0.0" vertical-offset="23324" max-vertical-offset="29310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/main.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="58" selection-start="3029" selection-end="3029" vertical-scroll-proportion="0.62903225" vertical-offset="1179" max-vertical-offset="1920">
+        <state line="157" column="16" selection-start="3750" selection-end="3750" vertical-scroll-proportion="0.53608245" vertical-offset="2095" max-vertical-offset="2775">
           <folding />
         </state>
       </provider>

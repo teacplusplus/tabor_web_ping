@@ -5,7 +5,7 @@
 
 # Example:
 #
-# set :output, "/path/to/my/cron_log.log"
+set :output, "/path/to/my/cron_log.log"
 #
 every 1.minutes do
    rake "watir"

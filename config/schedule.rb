@@ -7,7 +7,7 @@
 #
 set :output, "log/cron_log.log"
 #
-every 1.minutes do
+every 15.minutes do
    rake "watir"
 end
 #

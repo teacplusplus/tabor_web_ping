@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f4dd9b-38ae-469d-b09b-1f3417297890" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/schedule.rb" afterPath="$PROJECT_DIR$/config/schedule.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tabor_web_ping.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,9 +109,9 @@
       <file leaf-file-name="schedule.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/schedule.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="30" selection-start="219" selection-end="219" vertical-scroll-proportion="0.18072289" vertical-offset="0" max-vertical-offset="581">
+            <state line="9" column="8" selection-start="231" selection-end="231" vertical-scroll-proportion="0.23235801" vertical-offset="0" max-vertical-offset="581">
               <folding>
-                <marker date="1394757283883" expanded="true" signature="223:261" placeholder="..." />
+                <marker date="1394757354707" expanded="true" signature="223:262" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -839,7 +839,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="14" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
           <folding>
-            <marker date="1394757283883" expanded="true" signature="223:261" placeholder="..." />
+            <marker date="1394757354707" expanded="true" signature="223:262" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1079,9 +1079,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/schedule.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="219" selection-end="219" vertical-scroll-proportion="0.18072289" vertical-offset="0" max-vertical-offset="581">
+        <state line="9" column="8" selection-start="231" selection-end="231" vertical-scroll-proportion="0.23235801" vertical-offset="0" max-vertical-offset="581">
           <folding>
-            <marker date="1394757283883" expanded="true" signature="223:261" placeholder="..." />
+            <marker date="1394757354707" expanded="true" signature="223:262" placeholder="..." />
           </folding>
         </state>
       </provider>

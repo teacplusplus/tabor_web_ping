@@ -100,7 +100,7 @@ task :watir => :environment do
       end
 
       return raise 'не работаеют поиск' unless begin
-        browser.link(:class => 'online__link online__woman1').click
+        browser.link(:class => 'online__link online__woman').click
         browser.li(:class => 'comment').when_present.exists?
       rescue
         false

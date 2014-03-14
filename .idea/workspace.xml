@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f4dd9b-38ae-469d-b09b-1f3417297890" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/schedule.rb" afterPath="$PROJECT_DIR$/config/schedule.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/main.rake" afterPath="$PROJECT_DIR$/lib/tasks/main.rake" />
     </list>
     <ignored path="tabor_web_ping.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +18,7 @@
     <SUITE FILE_PATH="coverage/tabor_web_ping@db_migrate__tabor_web_ping.coverage" NAME="db:migrate: tabor_web_ping Coverage Results" MODIFIED="1393978845705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
     <SUITE FILE_PATH="coverage/tabor_web_ping@db_rollback__tabor_web_ping.coverage" NAME="db:rollback: tabor_web_ping Coverage Results" MODIFIED="1393978836431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
     <SUITE FILE_PATH="coverage/tabor_web_ping@Development__tabor_web_ping.coverage" NAME="Development: tabor_web_ping Coverage Results" MODIFIED="1393981108955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
-    <SUITE FILE_PATH="coverage/tabor_web_ping@watir__tabor_web_ping.coverage" NAME="watir: tabor_web_ping Coverage Results" MODIFIED="1394752707944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
+    <SUITE FILE_PATH="coverage/tabor_web_ping@watir__tabor_web_ping.coverage" NAME="watir: tabor_web_ping Coverage Results" MODIFIED="1394758085256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
     <SUITE FILE_PATH="coverage/tabor_web_ping@db_create__tabor_web_ping.coverage" NAME="db:create: tabor_web_ping Coverage Results" MODIFIED="1393974363416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -61,19 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.rake" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.rake" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/main.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="8" selection-start="3578" selection-end="3578" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="1920">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sms_gate.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/sms_gate.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+            <state line="102" column="58" selection-start="3029" selection-end="3029" vertical-scroll-proportion="0.62903225" vertical-offset="1179" max-vertical-offset="1920">
               <folding />
             </state>
           </provider>
@@ -106,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="schedule.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/schedule.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="231" selection-end="231" vertical-scroll-proportion="0.23235801" vertical-offset="0" max-vertical-offset="581">
+            <state line="6" column="66" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding>
                 <marker date="1394757354707" expanded="true" signature="223:262" placeholder="..." />
               </folding>
@@ -149,12 +139,12 @@
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/lib/tasks/main.rake" />
         <option value="$PROJECT_DIR$/config/initializers/sms_gate.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/unicorn.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/config/schedule.rb" />
+        <option value="$PROJECT_DIR$/lib/tasks/main.rake" />
       </list>
     </option>
   </component>
@@ -1000,20 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/main.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="8" selection-start="3578" selection-end="3578" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="1920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/sms_gate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="32" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
@@ -1079,10 +1055,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/schedule.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="231" selection-end="231" vertical-scroll-proportion="0.23235801" vertical-offset="0" max-vertical-offset="581">
+        <state line="6" column="66" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding>
             <marker date="1394757354707" expanded="true" signature="223:262" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/sms_gate.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.02640845" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/main.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="58" selection-start="3029" selection-end="3029" vertical-scroll-proportion="0.62903225" vertical-offset="1179" max-vertical-offset="1920">
+          <folding />
         </state>
       </provider>
     </entry>

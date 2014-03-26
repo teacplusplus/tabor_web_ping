@@ -136,16 +136,27 @@ task :watir => :environment do
 
     def schedule
       main
+      sleep(3)
       login
+      sleep(3)
       pay
+      sleep(3)
       event
+      sleep(3)
       system
+      sleep(3)
       message
+      sleep(3)
       friend
+      sleep(3)
       guest
+      sleep(3)
       service
+      sleep(3)
       shop
+      sleep(3)
       search
+      sleep(3)
     end
 
 

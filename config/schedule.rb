@@ -6,10 +6,10 @@
 # Example:
 #
 set :output, "log/cron_log.log"
-#
-every 15.minutes do
-   rake "watir"
-end
+##
+#every 15.minutes do
+#   rake "watir"
+#end
 #
 # every 4.days do
 #   runner "AnotherModel.prune_old_records"

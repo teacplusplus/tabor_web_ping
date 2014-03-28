@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="29f4dd9b-38ae-469d-b09b-1f3417297890" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/main.rake" afterPath="$PROJECT_DIR$/lib/tasks/main.rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/schedule.rb" afterPath="$PROJECT_DIR$/config/schedule.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tabor_web_ping.iws" />
@@ -15,11 +16,11 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tabor_web_ping@Rails_console__tabor_web_ping.coverage" NAME="Rails console: tabor_web_ping Coverage Results" MODIFIED="1394752690040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
-    <SUITE FILE_PATH="coverage/tabor_web_ping@db_rollback__tabor_web_ping.coverage" NAME="db:rollback: tabor_web_ping Coverage Results" MODIFIED="1393978836431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
+    <SUITE FILE_PATH="coverage/tabor_web_ping@Rails_console__tabor_web_ping.coverage" NAME="Rails console: tabor_web_ping Coverage Results" MODIFIED="1395860877134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
     <SUITE FILE_PATH="coverage/tabor_web_ping@db_migrate__tabor_web_ping.coverage" NAME="db:migrate: tabor_web_ping Coverage Results" MODIFIED="1393978845705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
+    <SUITE FILE_PATH="coverage/tabor_web_ping@db_rollback__tabor_web_ping.coverage" NAME="db:rollback: tabor_web_ping Coverage Results" MODIFIED="1393978836431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
     <SUITE FILE_PATH="coverage/tabor_web_ping@Development__tabor_web_ping.coverage" NAME="Development: tabor_web_ping Coverage Results" MODIFIED="1393981108955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
-    <SUITE FILE_PATH="coverage/tabor_web_ping@watir__tabor_web_ping.coverage" NAME="watir: tabor_web_ping Coverage Results" MODIFIED="1394760689073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
+    <SUITE FILE_PATH="coverage/tabor_web_ping@watir__tabor_web_ping.coverage" NAME="watir: tabor_web_ping Coverage Results" MODIFIED="1395860770415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
     <SUITE FILE_PATH="coverage/tabor_web_ping@db_create__tabor_web_ping.coverage" NAME="db:create: tabor_web_ping Coverage Results" MODIFIED="1393974363416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tabor_web_ping" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -61,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.rake" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.rake" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/tasks/main.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="24" selection-start="3786" selection-end="3786" vertical-scroll-proportion="0.636153" vertical-offset="1806" max-vertical-offset="2940">
+            <state line="158" column="8" selection-start="3795" selection-end="3795" vertical-scroll-proportion="0.0" vertical-offset="2257" max-vertical-offset="2955">
               <folding />
             </state>
           </provider>
@@ -73,7 +74,7 @@
       <file leaf-file-name="kernel.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1571" column="8" selection-start="69329" selection-end="69329" vertical-scroll-proportion="0.0" vertical-offset="23273" max-vertical-offset="29310">
+            <state line="1572" column="50" selection-start="69388" selection-end="69388" vertical-scroll-proportion="0.0" vertical-offset="23253" max-vertical-offset="29310">
               <folding />
             </state>
           </provider>
@@ -106,12 +107,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="schedule.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/schedule.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="66" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="360">
+            <state line="8" column="0" selection-start="222" selection-end="266" vertical-scroll-proportion="0.1369863" vertical-offset="0" max-vertical-offset="876">
               <folding>
-                <marker date="1394757354707" expanded="true" signature="223:262" placeholder="..." />
+                <marker date="1396032409384" expanded="true" signature="225:266" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -153,8 +154,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/unicorn.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
-        <option value="$PROJECT_DIR$/config/schedule.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/main.rake" />
+        <option value="$PROJECT_DIR$/config/schedule.rb" />
       </list>
     </option>
   </component>
@@ -197,8 +198,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -343,6 +342,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +363,7 @@
       <recent name="$PROJECT_DIR$/lib/tasks" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.watir: tabor_web_ping">
+  <component name="RunManager" selected="IRB console.Rails console: tabor_web_ping">
     <configuration default="false" name="db:create: tabor_web_ping" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="tabor_web_ping" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -744,11 +745,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760474" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20364742" sideWeight="0.63209075" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29669157" sideWeight="0.61912477" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2998933" sideWeight="0.61912477" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45220193" sideWeight="0.8611111" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4467849" sideWeight="0.123931624" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36842105" sideWeight="0.68356454" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37945494" sideWeight="0.68356454" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3415682" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -823,7 +824,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="14" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
           <folding>
-            <marker date="1394757354707" expanded="true" signature="223:262" placeholder="..." />
+            <marker date="1396032409384" expanded="true" signature="225:266" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -854,9 +855,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140305000400_create_statuses.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="225">
-          <folding />
-        </state>
+        <state line="8" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="225" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@global/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/schema_definitions.rb">
@@ -927,9 +926,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140305000400_create_statuses.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
+        <state line="8" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@global/gems/activerecord-4.0.0/lib/active_record/querying.rb">
@@ -1025,15 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/schedule.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="66" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding>
-            <marker date="1394757354707" expanded="true" signature="223:262" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/sms_gate.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.02640845" vertical-offset="0" max-vertical-offset="570" />
@@ -1053,13 +1041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1571" column="8" selection-start="69329" selection-end="69329" vertical-scroll-proportion="0.0" vertical-offset="23324" max-vertical-offset="29310">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448@global/gems/watir-webdriver-0.6.8/lib/watir-webdriver/wait.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="132" column="8" selection-start="3289" selection-end="3289" vertical-scroll-proportion="0.0" vertical-offset="1688" max-vertical-offset="2850">
@@ -1069,8 +1050,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/main.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="24" selection-start="3786" selection-end="3786" vertical-scroll-proportion="0.636153" vertical-offset="1806" max-vertical-offset="2940">
+        <state line="158" column="8" selection-start="3795" selection-end="3795" vertical-scroll-proportion="0.0" vertical-offset="2257" max-vertical-offset="2955">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1572" column="50" selection-start="69388" selection-end="69388" vertical-scroll-proportion="0.0" vertical-offset="23253" max-vertical-offset="29310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/schedule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="222" selection-end="266" vertical-scroll-proportion="0.1369863" vertical-offset="0" max-vertical-offset="876">
+          <folding>
+            <marker date="1396032409384" expanded="true" signature="225:266" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

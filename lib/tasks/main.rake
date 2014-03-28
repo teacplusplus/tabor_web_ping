@@ -179,8 +179,9 @@ task :watir => :environment do
       new_status = Status.create!(:error => true, :code => e.message)
       is_new_error = ((last_status.present? && last_status.error && ((new_status.created_at - last_status.created_at) > 1.hours)) || (last_status.blank?) || (last_status.present? && !last_status.error))
       if is_new_error
-        SmsGate.send("Ошибка: #{e.message}", '+79612966010', 3159)
-        SmsGate.send("Ошибка: #{e.message}", '+375295607342', 3159)
+        print "ok"
+        #SmsGate.send("Ошибка: #{e.message}", '+79612966010', 3159)
+        #SmsGate.send("Ошибка: #{e.message}", '+375295607342', 3159)
       end
     ensure
       @browser.close
